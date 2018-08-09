@@ -1,0 +1,2 @@
+# rogysisku
+Lojban tooltip dictionary
