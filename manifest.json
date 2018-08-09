@@ -1,0 +1,15 @@
+{
+    "name": "rogysisku",
+    "version": "1.0",
+    "description": "Translate Lojban words under your cursor.",
+    "content_scripts": [{"matches": ["<all_urls>"], "css": ["rogysisku.css"], "js": ["rogysisku.js"], "all_frames": true}],
+    "web_accessible_resources": ["dictionary.json"],
+    "browser_action": {
+        "default_title": "coi"
+    },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "manifest_version": 2
+}
